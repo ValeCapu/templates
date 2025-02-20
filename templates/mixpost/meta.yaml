@@ -1,0 +1,32 @@
+id: mixpost
+name: Mixpost
+description: A self-hosted social media management tool.
+logo: logo.png
+categories:
+  - Social Media
+  - Marketing
+fields:
+  appServiceName:
+    type: string
+    title: Service Name
+    default: mixpost
+  appServiceImage:
+    type: string
+    title: Docker Image
+    default: "mixpost/mixpost:latest"
+  mailerHost:
+    type: string
+    title: SMTP Host
+  mailerHostPort:
+    type: integer
+    title: SMTP Port
+    default: 587
+  mailerHostUser:
+    type: string
+    title: SMTP User
+  mailerPassword:
+    type: string
+    title: SMTP Password
+  mailerSender:
+    type: string
+    title: Sender Email
